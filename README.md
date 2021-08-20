@@ -28,7 +28,7 @@ For more details, see the scripts in the package.json file
 
 ---
 
-If you want to experience the App via ready for use installer, please visit the [author's webpage]<https://senlion5.github.io/my-portfolio/> to download the corresponding installer file.
+If you want to experience the App via ready for use installer, please visit the [author's webpage](https://senlion5.github.io/my-portfolio/) to download the corresponding installer file.
 
 ---
 
