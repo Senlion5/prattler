@@ -14,7 +14,7 @@
     "make:win": "electron-builder --win --x64"
   },
   "author": "Edward Suomin",
-  "license": "ISC",
+  "license": "MIT",
   "build": {
     "productName": "Prattler",
     "appId": "com.suomin.prattler",
