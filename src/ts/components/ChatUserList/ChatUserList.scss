@@ -1,0 +1,79 @@
+.UserListContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+  margin-top: 4px;
+
+  &-Items {
+    padding: 0;
+    margin: 0;
+    min-width: 260px;
+
+    &_NoUsers {
+      margin: 20px;
+      color: #af4242;
+    }
+
+    &_Item {
+      display: flex;
+      padding: 7px 0 7px 12px;
+      border-bottom: 1px solid #ede6f3;
+
+      &_IconBlock {
+        position: relative;
+
+        &_Status {
+          display: inline-block;
+          position: relative;
+          margin-right: 10px;
+
+          &_Img {
+            z-index: 1;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            box-shadow: 1px 2px 10px 4px #a697aab9;
+          }
+
+          &_Sign {
+            position: absolute;
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #2d5c92;
+            border: 2px solid #f0f7de;
+            right: 2px;
+            bottom: 2px;
+
+            &.online {
+              background: #299e67;
+            }
+
+            &.offline {
+              background: #b64f47;
+            }
+          }
+        }
+      }
+    }
+
+    &_ChatUserName {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      color: #5a33a1;
+      margin-right: 20px;
+      margin-left: 20px;
+
+      // max displayed characters
+      max-width: 170px;
+      min-width: 100px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}

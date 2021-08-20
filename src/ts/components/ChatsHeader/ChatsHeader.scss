@@ -1,0 +1,19 @@
+.ChatsHeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: 1px solid #bebebe;
+
+  &-Name {
+    font-weight: 800;
+    color: #5a33a1;
+    align-self: center;
+    font-size: 1.6rem;
+    padding: 5px 6px 6px 0;
+  }
+
+  &-CreateButton {
+    align-self: center;
+  }
+}

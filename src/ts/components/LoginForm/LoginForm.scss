@@ -1,0 +1,45 @@
+.LoginContainer {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 480px;
+  max-width: 480px;
+  height: 520px;
+  max-height: 520px;
+  background: #dddfeb;
+  border-radius: 8px;
+  box-shadow: 2px 4px 15px 10px #a697aab9;
+
+  &-Login {
+    max-width: 260px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &-Logo {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-Header {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+
+  &-Subheader {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+  }
+}

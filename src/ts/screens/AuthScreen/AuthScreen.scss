@@ -1,0 +1,22 @@
+.AuthContainer {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+
+  &-AfterText {
+    display: flex;
+    justify-content: center;
+    margin: 12px 16px 20px 0;
+    padding-top: 10px;
+  }
+
+  &-Link {
+    font-weight: 500;
+    font-size: 13px;
+    color: #1766af;
+    margin-left: 4px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,34 @@
+.Navbar {
+  &-Inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 14px;
+    border-bottom: 1px solid #bebebe;
+
+    &_left {
+      display: flex;
+
+      &_img {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+      }
+    }
+
+    &_right {
+      display: flex;
+      margin-right: 6px;
+    }
+
+    &_user {
+      display: flex;
+      align-self: center;
+      font-weight: bold;
+      line-height: 20px;
+      color: #5a33a1;
+      margin-left: 10px;
+      margin-right: 8px;
+    }
+  }
+}

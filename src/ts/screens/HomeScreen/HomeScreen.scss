@@ -1,0 +1,19 @@
+.MainRow {
+  display: flex;
+  flex: 1 1 0%;
+  overflow: hidden;
+
+  &-ListColumn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-right: 1px solid #bebebe;
+  }
+
+  &-AvailableChatsColumn {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,111 @@
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f0f7de;
+  transition: background-color 1s;
+
+  &.Dark {
+    background-color: #3c3d44;
+
+    .Navbar {
+      border-bottom: 1px solid #dbddeb;
+      &-Inner {
+        &_user {
+          color: #f4f4f4;
+        }
+      }
+    }
+
+    .AvailableChats {
+      &-ChatNameContainer {
+        border-bottom: 1px solid #dbddeb;
+      }
+    }
+
+    .ChatsHeaderContainer {
+      &-Name {
+        color: #f4f4f4;
+      }
+    }
+
+    .AvailableChats {
+      &-ChatsGrid {
+        &_Card_Body {
+          color: #3c3d44;
+        }
+        &_NoChats {
+          color: #cc8989;
+        }
+      }
+    }
+
+    .ListContainer {
+      &-Items {
+        :hover {
+          background-color: #974cc2;
+        }
+        &_Item {
+          border-bottom: 1px solid #52535a;
+        }
+        &_Empty {
+          color: #cc8989;
+        }
+        &_ChatName {
+          color: #f4f4f4;
+        }
+      }
+    }
+
+    .UserListContainer {
+      &-Items {
+        &_ChatUserName {
+          color: #f4f4f4;
+        }
+        &_Item {
+          border-bottom: 1px solid #52535a;
+        }
+      }
+    }
+
+    .MessagesList {
+      &-NoMessages {
+        color: #cc8989;
+      }
+      &-ChatNameContainer {
+        &_Name {
+          color: #f4f4f4;
+        }
+      }
+    }
+
+    .AuthContainer {
+      &-AfterText {
+        color: #bbbdc9;
+      }
+      &-Link {
+        color: #75a9da;
+      }
+    }
+
+    .LoginContainer {
+      box-shadow: 2px 4px 15px 10px #cab8b880;
+    }
+
+    .RegisterContainer {
+      box-shadow: 2px 4px 15px 10px #cab8b880;
+    }
+
+    .SettingsBackground {
+      &-SettingsFrame {
+        box-shadow: 2px 4px 15px 10px #cab8b880;
+      }
+    }
+
+    .NewChatContainer {
+      &-NewChat {
+        box-shadow: 2px 4px 15px 10px #cab8b880;
+      }
+    }
+  }
+}

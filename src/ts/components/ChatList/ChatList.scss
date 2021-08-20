@@ -1,0 +1,105 @@
+.ListContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: auto;
+
+  &-SearchBox {
+    border-radius: 3px;
+    padding: 0.75rem 1rem;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+
+  &-Items {
+    padding: 0;
+    margin: 0;
+
+    :hover {
+      background-color: #dddfeb;
+    }
+
+    &_Empty {
+      margin-left: 20px;
+    }
+
+    &_Item {
+      display: flex;
+      padding: 10px 18px;
+      cursor: pointer;
+      border-bottom: 1px solid #ede6f3;
+
+      &_IconBlock {
+        position: relative;
+
+        &_Status {
+          display: inline-block;
+          position: relative;
+          margin-right: 10px;
+
+          &_Img {
+            z-index: 1;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #dddfeb;
+            box-shadow: 1px 2px 10px 4px #a697aab9;
+          }
+        }
+      }
+    }
+
+    &_ChatName {
+      display: flex;
+      align-items: center;
+      margin-right: 16px;
+      margin-left: 22px;
+      font-weight: 600;
+      font-size: 17px;
+      color: #5a33a1;
+
+      // max displayed characters
+      width: 162px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .ListContainer {
+    &-Items {
+      &_Item {
+        padding: 10px 0 8px 14px;
+        &_IconBlock {
+          &_Status {
+            &_Img {
+              width: 44px;
+              height: 44px;
+            }
+
+            &_Sign {
+              width: 12px;
+              height: 12px;
+              right: 2px;
+              bottom: 2px;
+            }
+          }
+        }
+      }
+
+      &_Empty {
+        margin: 20px;
+      }
+
+      &_ChatName {
+        font-size: 15px;
+        margin-left: 20px;
+        font-weight: 600;
+        width: 142px;
+      }
+    }
+  }
+}

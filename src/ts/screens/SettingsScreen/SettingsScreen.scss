@@ -1,0 +1,75 @@
+.SettingsBackground {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  flex: 1 1 0%;
+  overflow: auto;
+
+  &-SettingsFrame {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 480px;
+    max-width: 480px;
+    height: 400px;
+    max-height: 480px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background: #dddfeb;
+    border-radius: 8px;
+    box-shadow: 2px 4px 15px 10px #a697aab9;
+
+    &_Settings {
+      max-width: 260px;
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    &_Settings_Label {
+      margin-left: 10px;
+    }
+
+    &_HeaderFrame {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 16px;
+      margin-left: -10px;
+
+      &_Logo {
+        position: relative;
+        margin-right: 10px;
+      }
+
+      &_Header {
+        position: relative;
+      }
+    }
+
+    &_Subheader {
+      display: flex;
+      justify-content: center;
+      font-weight: 500;
+    }
+
+    &_AfterText {
+      display: flex;
+      justify-content: center;
+      margin: 12px 16px 20px 0;
+    }
+
+    &_Link {
+      font-weight: 500;
+      font-size: 13px;
+      color: #1766af;
+      margin-left: 4px;
+      cursor: pointer;
+    }
+  }
+}
