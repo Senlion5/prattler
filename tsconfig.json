@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react",
+        "lib": ["es5", "es6", "dom"],
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "strict": true,
+        "strictNullChecks": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*"],
+    "paths": {
+        "app/*": ["src/*"]
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "reportFiles": ["./src/**/*"]
+    }
+}

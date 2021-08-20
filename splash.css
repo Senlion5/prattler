@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap");
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  font-family: Nunito;
+}
+
+html {
+  color: #5a33a1;
+  background-color: #f0f7de;
+}
+
+h1,
+h2 {
+  margin-left: 26px;
+}
+
+.loading-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes Logo-spin {
+  from {
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(345deg);
+  }
+}
+
+.loading-img {
+  width: 70px;
+  height: 70px;
+  animation: Logo-spin infinite 35s linear;
+}
