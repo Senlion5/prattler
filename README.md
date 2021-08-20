@@ -20,4 +20,4 @@ Edward Suomin
 
 ### License
 
-This project is licensed under the ISC
+This project is licensed under the MIT 
