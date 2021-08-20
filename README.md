@@ -8,6 +8,30 @@ This demo project is a part of the software developer’s professional portfolio
 
 ---
 
+## Quick Start
+
+### Install server dependencies
+
+```bash
+npm install
+```
+
+### Create setup installer file 
+
+```bash
+npm run make:<your_opperating_system>
+```
+
+For more details, see the scripts in the package.json file
+
+* This desktop application is designed to be secure.
+
+---
+
+If you want to experience the App via ready for use installer, please visit the [author's webpage]<https://senlion5.github.io/my-portfolio/> to download the corresponding installer file.
+
+---
+
 ## App Info
 
 ### Author
