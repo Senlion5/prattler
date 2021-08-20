@@ -16,7 +16,7 @@ This demo project is a part of the software developer’s professional portfolio
 npm install
 ```
 
-### Create setup installer file 
+### Create setup installer package 
 
 ```bash
 npm run make:<your_opperating_system>
