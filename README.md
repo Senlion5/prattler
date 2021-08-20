@@ -10,7 +10,7 @@ This demo project is a part of the software developer’s professional portfolio
 
 ## Quick Start
 
-### Install server dependencies
+### Install app dependencies
 
 ```bash
 npm install
@@ -28,7 +28,7 @@ For more details, see the scripts in the package.json file
 
 ---
 
-If you want to experience the App via ready for use installer, please visit the [author's webpage](https://senlion5.github.io/my-portfolio/) to download the corresponding installer file.
+If you want to experience the App via ready for use installer, please visit the [author's webpage](https://senlion5.github.io/portfolio/) to download the corresponding installer file.
 
 ---
 
